@@ -1,3 +1,5 @@
+var HtmlwebpackPlugin = require('html-webpack-plugin');
+
 module.exports = {
 	entry: [
 		'babel-polyfill',
@@ -22,5 +24,11 @@ module.exports = {
 				loader: 'handlebars-loader'
 			}
 		]
-	}
+	},
+	plugins: [
+		new HtmlwebpackPlugin({
+			title: 'Intro to webpack',
+			template: 'src/index.html'
+		})
+	]
 }
