@@ -8,4 +8,4 @@ window.jQuery = jQuery;
 
 var util = new testUtil();
 util.testMethod()
-$('#test-jquery').text('hello world - jquery');
+$('#test-jquery').text('hello world - jquery... test watched');

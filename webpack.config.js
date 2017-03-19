@@ -10,6 +10,7 @@ module.exports = {
 		path: './dist',
 		filename: '[name].bundle.js'
 	},
+	watch: true,
 	module: {
 		rules: [
 			{ 
